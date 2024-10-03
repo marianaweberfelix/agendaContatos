@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://images.vexels.com/content/206164/preview/pink-agenda-stroke-icon-fa79fb.png" atl="Agenda">
+            <h1>Agenda telefônica</h1>
+        </header>
+        <form id="agendaTelefonica">
+            <input type="text" id="nomeContato" required placeholder="Nome do contato" />
+            <input type="number" id="numeroContato" required placeholder="Numero do contato" />
+            <button type="submit">Salvar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome do contato</th>
+                <th>
+                    Numero do contato
+                </th>
+                </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>----</td>
+                    <td>----</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
